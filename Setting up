@@ -1,0 +1,51 @@
+// Set name shown under your git commit
+$ git config --global user.name "User Name"
+
+// Set email shown under your git commit
+$ git config --global user.email "email"
+
+// Set directory 
+$ cd "directory" (e.g Desktop) 
+
+Basic commands 
+ls = checks files in folder 
+
+
+1. Fork (on Git) // Always FORK first // copy to your own account 
+2. git clone <link> // FROM YOUR OWN PROFILE WITH YOUR OWN USERNAME // copy into your own laptop
+3. cd <folder> 
+4. git branch add-atsushi
+5. vim guide.md 
+6. touch atsushi.txt 
+7. git status (not updated) 
+8. git commit -m "Add atsushi" // 
+9. git push origin <add-filename> 
+10. Compare 
+
+
+Step 1
+3. add readme.txt
+4. git status 
+5. git add <filename> // git add . (adds all files) // git add *.html (all specific kind of files - txt) 
+6. git status 
+7. git commit 
+        INSERT to add stuff in 
+7.1 :wq (exit)
+8. git log (edit history) 
+9. touch index.html (automatically add new file in folder)
+9.1 touch .gitignore 
+              add *.log (inside txt documend named gitignore)
+              git add . will still add gitignore 
+9.2 vi .filename (edits file from terminal) // e.g vi .gitignore 
+
+
+Now is a great time to contribute to open source
+Hacktoberfest 
+
+
+
+
+
+
+
+
