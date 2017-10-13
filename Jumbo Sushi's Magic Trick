@@ -15,3 +15,4 @@ touch ./attendees/nicholas.txt
 touch ./attendees/nicholas.txt
 git add . 
 git commit -m 'add me' 
+whatever
