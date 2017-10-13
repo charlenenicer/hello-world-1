@@ -1,0 +1,17 @@
+cd git-tutorial
+git branch add-atsushi
+ls
+vim guide.md
+touch ATsushi.txt
+git status
+git add . 
+git status
+git commit -m "Add Atsushi"
+ls 
+git push origin
+git checkout -b add-nicholas
+touch ./at
+touch ./attendees/nicholas.txt
+touch ./attendees/nicholas.txt
+git add . 
+git commit -m 'add me' 
