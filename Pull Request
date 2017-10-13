@@ -1,0 +1,11 @@
+Fork
+Clone (git clone <link>) = should say ... -username - ... 
+git branch add-YOURNAME
+git checkout add-YOURNAME
+git status 
+git add . 
+$ git commit -m "Add YOUR_NAME.txt
+$ git push origin add-YOUR_NAME // Note: Push command specifes the branch name to push to with the last argument (in this case add-YOUR_NAME)
+// go to repo and compare and make pull request // but files not in your local desktop 
+git checkout master
+git remote add upstream <link> // not your username this time
